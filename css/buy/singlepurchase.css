@@ -1,0 +1,261 @@
+@charset "UTF-8";
+main{
+    margin-bottom: 130px;
+}
+main .container{
+    width: 1190px;
+    margin: 0 auto;
+}
+
+main .content{
+    padding-top: 10px;
+}
+main .content .goods-buy-info{
+    width: 1190px;
+    height:620px;
+}
+main .content .goods-buy-info .goods-img{
+    width: 595px;
+    height:569px;
+}
+main .content .goods-buy-info .goods-img .main-img{
+    width: 595px;
+    height:437px;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    border-radius:10px;
+    overflow: hidden;
+}
+main .content .goods-buy-info .goods-img .sub-little-img{
+    width: 595px;
+    height: 112px;
+    margin-top:20px ;
+}
+main .content .goods-buy-info .goods-img .main-img>ul>li{
+    left:0;
+    top:0;
+}
+main .content .goods-buy-info .goods-img .main-img>ul>li>img{
+    width: 595px;
+    height:437px;
+    opacity: 0;
+    transition: 1s;
+}
+
+main .content .goods-buy-info .goods-img .sub-little-img>ul>li{
+    font-size: 0;
+    margin-right:8px;
+}
+main .content .goods-buy-info .goods-img .sub-little-img>ul>li:last-child{
+    margin: 0;
+}
+main .content .goods-buy-info .goods-img .sub-little-img>ul>li>img{
+    width:112px;
+    height:112px;
+}
+main .content .goods-buy-info .goods-buy{
+    width: 515px;
+    height:620px;
+}
+main .content .goods-buy-info .goods-buy .goods-name h1{
+    font:bold 40px "等线";
+    margin-bottom:10px;
+}
+main .content .goods-buy-info .goods-buy .goods-name p{
+    font-size: 18px;
+}
+main .content .goods-buy-info .goods-buy .goods-name p>span{
+    margin-right: 10px;
+}
+main .content .goods-buy-info .goods-buy .goods-price{
+    margin-top: 60px;
+    height: 58px;
+}
+main .content .goods-buy-info .goods-buy .goods-price .old-price span,main .content .goods-buy-info .goods-buy .goods-price .new-price span{
+    display: inline-block;
+}
+/*main .content .goods-buy-info .goods-buy .goods-price .old-price .old{
+     text-decoration: line-through;
+ }*/
+main .content .goods-buy-info .goods-buy .goods-price .old-price .old,main .content .goods-buy-info .goods-buy .goods-price .new-price .new{
+    font-size: 72px;
+    line-height: 58px;
+    font-weight: bold;
+}
+main .content .goods-buy-info .goods-buy .goods-price .new-price{
+    margin-left: 25px;
+}
+main .content .goods-buy-info .goods-buy .goods-price .new-price .new{
+    color: #d8170e;
+}
+main .content .goods-buy-info .goods-buy .goods-price .old-price .o1,main .content .goods-buy-info .goods-buy .goods-price .new-price .n1{
+    font-size: 18px;
+    vertical-align: top;
+}
+main .content .goods-buy-info .goods-buy .goods-dynamic{
+    margin-top: 20px;
+    font-size: 18px;
+}
+main .content .goods-buy-info .goods-buy .goods-dynamic p {
+    margin-top: 5px;
+}
+main .content .goods-buy-info .goods-buy .goods-dynamic .p1 .rmb{
+    font-size: 24px;
+    font-weight: bold;
+}
+main .content .goods-buy-info .goods-buy .goods-dynamic p>a{
+    margin-left: 20px;
+    color: #999999;
+    text-decoration: underline;
+}
+main .content .goods-buy-info .goods-buy .goods-buy-ctrl{
+    margin-top: 20px;
+}
+main .content .goods-buy-info .goods-buy .goods-buy-ctrl .count-set-area{
+    width: 90px;
+    height:50px;
+    border:1px solid #eee;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius:5px;
+}
+main .content .goods-buy-info .goods-buy .goods-buy-ctrl .count-set-area input{
+    width: 59px;
+    height: 50px;
+    text-indent: 25px;
+    font-size: 20px;
+    border: none;
+    border-right:1px solid #eee;
+    outline: none;
+}
+main .content .goods-buy-info .goods-buy .goods-buy-ctrl .count-set-area .count a{
+    width: 29px;
+    height: 24px;
+    text-align: center;
+    font-size: 20px;
+    display:block;
+    background-color: #eeeeee;
+}
+main .content .goods-buy-info .goods-buy .goods-buy-ctrl .count-set-area .count a:active{
+    background-color: #999;
+    opacity: 0.8;
+}
+main .content .goods-buy-info .goods-buy .goods-buy-ctrl p{
+    width: 196px;
+    height:48px;
+    border: 1px solid transparent;
+    overflow: hidden;
+    border-radius: 5px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 48px;
+    color: white;
+}
+main .content .goods-buy-info .goods-buy .goods-buy-ctrl p.p1 {
+    background-color: #db261f;
+    margin: 0 13px;
+}
+main .content .goods-buy-info .goods-buy .goods-buy-ctrl p.p2{
+    border-color: #eee;
+    color: #999;
+}
+main .content .goods-buy-info .goods-buy .goods-buy-ctrl p:hover{
+    opacity: .8;
+}
+main .content .goods-buy-info .goods-buy .online-server{
+    margin-top: 50px;
+}
+main .content .goods-buy-info .goods-buy .online-server .online{
+    width: 157px;
+    height:48px;
+    background-color: #db261f;
+    font-size: 20px;
+    text-align: center;
+    line-height: 48px;
+    color: white;
+    border: 1px solid transparent;
+    overflow: hidden;
+    border-radius: 5px;
+}
+main .content .goods-buy-info .goods-buy .online-server .online:hover{
+    opacity: .8;
+}
+main .content .goods-buy-info .goods-buy .huliserver{
+    margin-top: 20px;
+}
+main .content .goods-buy-info .goods-buy .huliserver p{
+    padding: 10px;
+    background-color: #999999;
+    border: 1px solid transparent;
+    overflow: hidden;
+    border-radius: 5px;
+
+}
+main .content .goods-specification{
+    margin-top: 10px;
+}
+.goods-h1{
+    font-size: 24px;
+    font-weight: 300;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+}
+main .content .goods-specification p{
+    margin-top: 10px;
+    display: flex;
+}
+main .content .goods-specification p span{
+    flex:1 1 auto;
+    font-size: 18px;
+}
+main .content .goods-details{
+    margin-top: 20px;
+}
+main .content .goods-details div{
+    width: 100%;
+    height: 250px;
+    margin-top: 10px;
+    background-color: #eee;
+}
+main .content .goods-recommend ul{
+    width: 1190px;
+    display: flex;
+    justify-content: space-between;
+}
+main .content .goods-recommend>ul>li{
+    border:3px solid transparent;
+}
+main .content .goods-recommend>ul>li figure img{
+    width: 358px;
+    height:358px;
+}
+main .content .goods-recommend>ul>li>p{
+    display: flex;
+    justify-content: center;
+    height: 64px;
+    align-items: center;
+}
+main .content .goods-recommend>ul>li>p span{
+    font-size: 22px;
+    margin-right: 10px;
+}
+.line-through:after{
+    content: "";
+    width: 75px;
+    height: 2px;
+    position: absolute;
+    left: 7px;
+    top: 16px;
+    background-color: #db261f;
+    transform: rotateZ(15deg);
+}
+.line-through1:after{
+    content: "";
+    width: 160px;
+    height: 2px;
+    position: absolute;
+    left: -17px;
+    top: 28px;
+    background-color: #db261f;
+    transform: rotateZ(15deg);
+}

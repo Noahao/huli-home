@@ -1,0 +1,101 @@
+@charset "UTF-8";
+
+html,body,.main {
+	width: 100%;
+	height: 100%;
+}
+
+
+/*主体元素  content*/
+.content {
+	width: 100%;
+	margin-bottom: 100px;
+}
+.home-h1{
+	width: 431px;
+	height: 35px;
+	background: url("../images/sprites.png");
+	background-position: 0 0;
+	margin: 34px auto 50px;
+}
+
+/*正文图片主要内容*/
+.container,.container>div {
+	width: 1240px;
+	margin: auto;
+	position: relative;
+}
+/*上*/
+.slideList {
+	width: 814px;
+	height: 388px;
+	position: relative;
+	overflow: hidden;
+}
+.slideList>img {
+	width: inherit;
+	height: inherit;
+	position: absolute;
+	opacity: 0;
+	transition: all 1.5s linear;
+}
+.show {
+	opacity: 1 !important;
+	animation: imgScale 6s linear;
+}
+@keyframes imgScale {
+	from { transform: scale(1); }
+	to { transform: scale(1.2) }
+}
+.enlarge-1 {
+	transform-origin: 10% 10%;
+}.enlarge-2 {
+	 transform-origin: 90% 10%;
+ }.enlarge-3 {
+	  transform-origin: 10% 90%;
+  }.enlarge-4 {
+	   transform-origin: 90% 90%;
+   }
+.slideList-point {
+	position: absolute;
+	left: 20px;
+	bottom: 16px;
+}
+.slideList-point>i {
+	width: 16px;
+	height: 16px;
+	background-color: transparent;
+	border: 2px solid #fff;
+	border-radius: 50%;
+	float: left;
+	display: block;
+	box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+	margin-right: 12px;
+	cursor: pointer;
+	transition: all 0.2s
+}
+.slideList-point>i:hover {
+	border: 2px solid #b6ccff;
+	background-color: #b6ccff;
+}
+.ckd {
+	background-color: white !important;
+}
+.mgl {
+	margin-left: 38px;
+}
+/*中*/
+.mgt {
+	margin-top: 38px !important;
+}
+/*下*/
+.img-box3-2 {
+	width: 814px;
+	height: 388px;
+	border: 1px solid #bfbfbe;
+}
+.img-box3-2>img {
+	width: 100%;
+	height: 100%;
+}
+

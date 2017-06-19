@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+
+main .content .loginbox .login-tip span{
+    display: block;
+    text-decoration: underline;
+    font-size: 18px;
+}
+main .content .loginbox .login-tip span:hover{
+    color: #4375ad;
+}

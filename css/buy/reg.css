@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+main{
+    width: 1190px;
+    margin:60px auto 120px;
+}
+main .content{
+    margin-top: 30px;
+    text-align: center;
+}
+main .content h1{
+    color: #333;
+    font:normal 32px/140% "Microsoft Himalaya";
+}
+main .content>p{
+    margin: 10px;
+    font:normal 18px/140% "Microsoft Himalaya";
+    color: #888;
+}
+main .content>p a {
+    color: #4375ad;
+    text-decoration: underline;
+}
+main .content .loginbox{
+    margin: 0 auto;
+    width: 400px;
+    height:450px;
+}
+main .content .loginbox form div{
+    height: 110px;
+}
+main .content .loginbox form div label{
+    text-align: left;
+    font-size: 18px;
+}
+main .content .loginbox form div input{
+    outline: none;
+    width: 400px;
+    height:50px;
+    font-size: 16px;
+    border:1px solid #cccbca;
+}
+
+main .content .loginbox form div input:focus{
+    border: 1px solid #82c353;
+    -webkit-box-shadow:0 0 10px rgba(130, 195, 83, 0.6);
+    -moz-box-shadow:0 0 10px rgba(130, 195, 83, 0.6);
+    box-shadow:0 0 10px rgba(130, 195, 83, 0.6);
+}
+main .content .loginbox form div p{
+    text-align: left;
+    color: #82c353;
+    display: none;
+}
+main .content .loginbox form .reg-btn{
+    width: 400px;
+    height: 64px;
+    margin-top: 50px;
+    background-color: #838281;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    text-align: center;
+    line-height: 64px;
+    color: white;
+}

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <link rel="icon" href="../../images/icon.png">
+    <link rel="stylesheet" href="../../css/public.css">
+    <link rel="stylesheet" href="../../css/publicstyle.css">
+    <link rel="stylesheet" href="../../css/headerAndFooter.css">
+    <link rel="stylesheet" href="../../css/ren/shoppingcar.css">
+    <title>购物车</title>
+</head>
+<body>
+    <!--header-->
+    <div class="header"></div>
+    <!--content-->
+    <div class="shop-content">
+        <h2>我的购物车</h2>
+        <div class="shop-tab">
+            <table>
+                <thead>
+                    <tr>
+                        <th class="chk">
+                            <input  type="checkbox" value="1" class="tbchk">
+                            <i class="chk-bx chk-all"></i>
+                        </th>
+                        <th>商品信息</th>
+                        <th>单价</th>
+                        <th class="th-ct">数量</th>
+                        <th>金额</th>
+                        <th>操作</th>
+                    </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td class="chk">
+                        <input name="" type="checkbox" value="1"  class="ipt-ck">
+                        <i class="chk-bx"></i>
+                    </td>
+                    <td class="td-name">
+                        <div>
+                            <img src="../../images/orderpic.jpg">
+                            <p>
+                                <a href="#" class="furniture">家具名称</a>
+                            </p>
+                        </div>
+                        <div class="tolft">
+                            <p>产品尺寸</p>
+                            <p>产品材质</p>
+                            <p>产品颜色</p>
+                        </div>
+                    </td>
+                    <td >￥<span class="price">698</span></td>
+                    <td class="tdcount">
+                        <button type="button" class="minus">-</button>
+                        <input type="text" value="3" class="num">
+                        <button type="button" class="plus">+</button>
+                    </td>
+                    <td class="rmb">￥2094</td>
+                    <td class="">
+                        <a href="#" class="dele">删除</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="chk">
+                        <input  type="checkbox" class="ipt-ck">
+                        <i class="chk-bx"></i>
+                    </td>
+                    <td class="td-name">
+                        <div>
+                            <img src="../../images/orderpic.jpg">
+                            <p>
+                                <a href="#" class="furniture">家具名称</a>
+                            </p>
+                        </div>
+                        <div class="tolft">
+                            <p>产品尺寸</p>
+                            <p>产品材质</p>
+                            <p>产品颜色</p>
+                        </div>
+                    </td>
+                    <td>￥<span class="price">668</span></td>
+                    <td class="tdcount">
+                        <button type="button" class="minus">-</button>
+                        <input type="text" value="1" class="num">
+                        <button type="button" class="plus">+</button>
+                    </td>
+                    <td class="rmb">￥668</td>
+                    <td class="">
+                        <a href="#" class="dele">删除</a>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+            <div class="paybar">
+                <div class="left-prj">
+                    <i class="chk-bx chk-all" id="lastchk"></i>
+                    <input type="checkbox" value="1" class="tbchk">&nbsp;&nbsp;全选
+                    已选商品 <i class="goodsnum">0</i> 件
+                </div>
+                <div class="right-prj">
+                    合计<span>(不含运费)</span>:&nbsp;<i>￥<b class="total">0.00</b></i>
+                    <div class="closing-accounts">去结算</div>
+                </div>
+            </div>
+        </div>
+        <div class="recommend">
+            <h2>推荐商品</h2>
+            <div>
+                <img src="../../images/recommend.jpg" alt="">
+                <p>
+                    <span>产品名称</span><span>￥680</span>
+                </p>
+            </div>
+            <div class="mid">
+                <img src="../../images/recommend.jpg" alt="">
+                <p>
+                    <span>产品名称</span><span>￥680</span>
+                </p>
+            </div>
+            <div>
+                <img src="../../images/recommend.jpg" alt="">
+                <p>
+                    <span>产品名称</span><span>￥680</span>
+                </p>
+            </div>
+        </div>
+    </div>
+    <!--footer-->
+    <div class="footer"></div>
+<!--js-->
+    <script src="../../plugin/jquery.js"></script>
+    <script src="../../js/navPage.js"></script>
+    <script src="../../js/headerBtn.js"></script>
+    <script src="../../js/common.js"></script>
+    <script src="../../js/ren/shoppingcar.js"></script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+/*初始化样式*/
+*{box-sizing:border-box;}
+
+html,body,ul,li,p,input,main,span,div,h1,h2,h3,h4,h5,footer,figure{
+    margin: 0;
+    padding: 0;
+}
+
+.fl {float: left}
+.fr {float: right}
+.clearFix:before,.clearFix:after{
+    content:"";
+    display:table;
+}
+.clearFix:after{clear: both;}
+
+a{text-decoration: none;cursor: pointer}
+
+ul,li{list-style: none;}
+

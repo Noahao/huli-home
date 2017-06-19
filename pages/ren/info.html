@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <link rel="icon" href="../../images/icon.png">
+    <link rel="stylesheet" href="../../css/public.css">
+    <link rel="stylesheet" href="../../css/publicstyle.css">
+    <link rel="stylesheet" href="../../css/headerAndFooter.css">
+    <link rel="stylesheet" href="../../css/ren/info.css">
+    <title>用户信息-个人信息</title>
+</head>
+<body>
+    <div class="header"></div>
+    <!--信息-->
+    <div class="info-container">
+        <div class="info-content">
+            <!--信息选项-->
+            <ul class="info-list">
+                <li><a href="#" class="checked">个人信息</a></li>
+                <li><a href="#">我的订单</a></li>
+                <li><a href="#">我的出售</a></li>
+                <li><a href="#">个人账户</a></li>
+                <li><a href="#">系统消息</a> <i class="tip">0</i></li>
+            </ul>
+            <div class="content">
+                <!--个人信息表单-->
+                <form action="" class="person-set">
+                    <div class="contacter">
+                        <label>联系人</label>
+                        <input type="text" placeholder="姓名" class="name">
+                        <input type="tel" placeholder="电话号码" class="tel">
+                    </div>
+                    <div>
+                        <label>性别</label>
+                        <div class="sex">
+                            <p><input name="sex" type="radio" id="male"><i></i><label for="male">男</label></p>
+                            <p><input name="sex" type="radio" id="female"><i></i><label for="female">女</label></p>
+                        </div>
+                    </div>
+                    <div class="born">
+                        <label>生日</label>
+                            <div class="year-box">
+                                <div class="yr"><span>2015</span><i class="sub"></i></div>
+                                <dl class="year">
+                                    <dd>1991</dd>
+                                    <dd>1992</dd>
+                                    <dd>1993</dd>
+                                    <dd>1994</dd>
+                                    <dd>1995</dd>
+                                    <dd>1996</dd>
+                                    <dd>1997</dd>
+                                    <dd>1998</dd>
+                                    <dd>1999</dd>
+                                </dl>
+                            </div>
+                        <div class="moth-box">
+                            <div class="mth"><span>01</span><i class="sub"></i></div>
+                            <dl class="moth">
+                                <dd>01</dd>
+                                <dd>02</dd>
+                                <dd>03</dd>
+                                <dd>04</dd>
+                                <dd>05</dd>
+                                <dd>06</dd>
+                                <dd>07</dd>
+                                <dd>08</dd>
+                                <dd>09</dd>
+                                <dd>10</dd>
+                                <dd>11</dd>
+                                <dd>12</dd>
+                            </dl>
+                        </div>
+                        <div class="day-box">
+                            <div class="mth"><span>01</span><i class="sub"></i></div>
+                            <dl class="day">
+                                <dd>01</dd>
+                                <dd>02</dd>
+                                <dd>03</dd>
+                                <dd>04</dd>
+                                <dd>05</dd>
+                                <dd>06</dd>
+                                <dd>07</dd>
+                                <dd>08</dd>
+                                <dd>09</dd>
+                                <dd>10</dd>
+                                <dd>...</dd>
+                                <dd>31</dd>
+                            </dl>
+                        </div>
+                    </div>
+                    <div>
+                        <label>家居偏好</label>
+                        <div class="box">
+                            <div class="name"><span>现代简约</span><i class="sub"></i></div>
+                            <dl class="like">
+                                <dd>现代简约</dd>
+                                <dd>恬淡田园</dd>
+                                <dd>现代中式</dd>
+                                <dd>东南亚风格</dd>
+                                <dd>欧式古典</dd>
+                                <dd>地中海</dd>
+                                <dd>美式乡村</dd>
+                                <dd>美式古典</dd>
+                                <dd>时尚混搭</dd>
+                                <dd>其他</dd>
+                            </dl>
+                        </div>
+                    </div>
+                    <div>
+                        <label>教育程度</label>
+                        <div class="box">
+                            <div class="name"><span>初中</span><i class="sub"></i></div>
+                            <dl class="like">
+                                <dd>初中</dd>
+                                <dd>高中</dd>
+                                <dd>大专</dd>
+                                <dd>本科</dd>
+                                <dd>硕士</dd>
+                                <dd>博士</dd>
+                                <dd>其他</dd>
+                            </dl>
+                        </div>
+                    </div>
+                    <div>
+                        <label>所在行业</label>
+                        <div class="box">
+                            <div class="name"><span>机构组织</span><i class="sub"></i></div>
+                            <dl class="like">
+                                <dd>机构组织</dd>
+                                <dd>农林牧渔</dd>
+                                <dd>医药卫生</dd>
+                                <dd>建筑建材</dd>
+                                <dd>冶金矿产</dd>
+                                <dd>石油化工</dd>
+                                <dd>信息产业</dd>
+                                <dd>交通运输</dd>
+                                <dd>机械机电</dd>
+                                <dd>轻工食品</dd>
+                                <dd>服装纺织</dd>
+                                <dd>安全防护</dd>
+                                <dd>环保绿化</dd>
+                                <dd>其他</dd>
+                            </dl>
+                        </div>
+                    </div>
+                    <div class="location">
+                        <label>所在地区</label>
+                        <div class="box">
+                            <div class="name"><span>四川</span><i class="sub"></i></div>
+                            <dl class="like">
+                                <dd>四川</dd>
+                                <dd>北京</dd>
+                                <dd>上海</dd>
+                                <dd>深圳</dd>
+                                <dd>北京</dd>
+                                <dd>上海</dd>
+                                <dd>深圳</dd>
+                                <dd>其他地区</dd>
+                            </dl>
+                        </div>
+                        <div class="box">
+                            <div class="name"><span>成都市</span><i class="sub"></i></div>
+                            <dl class="like">
+                                <dd>成都市</dd>
+                                <dd>绵阳市</dd>
+                                <dd>攀枝花市</dd>
+                                <dd>泸州市</dd>
+                                <dd>自贡市</dd>
+                                <dd>广元市</dd>
+                                <dd>其他</dd>
+                            </dl>
+                        </div>
+                        <div class="box">
+                            <div class="name"><span>锦江区</span><i class="sub"></i></div>
+                            <dl class="like">
+                                <dd>锦江区</dd>
+                                <dd>金牛区</dd>
+                                <dd>武侯区</dd>
+                                <dd>青羊区</dd>
+                                <dd>高新区</dd>
+                                <dd>成华区</dd>
+                                <dd>双流区</dd>
+                                <dd>金堂县</dd>
+                            </dl>
+                        </div>
+                        <div class="box">
+                            <div class="name"><span>三环内</span><i class="sub"></i></div>
+                            <dl class="like">
+                                <dd>三环以内</dd>
+                                <dd>三环以外绕城以</dd>
+                                <dd>绕城西</dd>
+                                <dd>绕城南</dd>
+                                <dd>绕城东</dd>
+                                <dd>绕城北</dd>
+                            </dl>
+                        </div>
+                        <input type="text" placeholder="街道门牌号" class="housenum">
+                    </div>
+                    <div class="btn">
+                        <button type="button" class="button">提交</button>
+                    </div>
+                </form>
+                <!--我的订单-->
+                <div class="order-box">
+                    <table class="order">
+                        <thead>
+                        <tr>
+                            <th>订单信息</th>
+                            <th>金额</th>
+                            <th>下单时间</th>
+                            <th>送货时间</th>
+                            <th>状态</th>
+                            <th>操作</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <img src="../../images/orderpic.jpg" alt="" class="orderpic">
+                                    <p class="ordernum">订单号</p>
+                                </td>
+                                <td>￥620</td>
+                                <td>2015-08-02</td>
+                                <td>2015-08-03</td>
+                                <td>送货中</td>
+                                <td class="control">
+                                    <p class="ct-p"><a href="#">查看</a>|<a href="#" class="cancle">取消</a></p>
+                                    <p><a href="#">售后</a>|<a href="#" class="del">删除</a></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img src="../../images/orderpic.jpg" alt="" class="orderpic">
+                                    <p class="ordernum">订单号</p>
+                                </td>
+                                <td>￥620</td>
+                                <td>2015-08-02</td>
+                                <td>2015-08-03</td>
+                                <td>已收货</td>
+                                <td class="control">
+                                    <p class="ct-p"><a href="#">查看</a>|<a href="#" class="cancle">取消</a></p>
+                                    <p><a href="#">售后</a>|<a href="#" class="del">删除</a></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img src="../../images/orderpic.jpg" alt="" class="orderpic">
+                                    <p class="ordernum">订单号</p>
+                                </td>
+                                <td>￥620</td>
+                                <td>2015-08-02</td>
+                                <td>2015-08-03</td>
+                                <td>订单完成</td>
+                                <td class="control">
+                                    <p class="ct-p"><a href="#">查看</a>|<a href="#" class="cancle">取消</a></p>
+                                    <p><a href="#">售后</a>|<a href="#" class="del">删除</a></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img src="../../images/orderpic.jpg" alt="" class="orderpic">
+                                    <p class="ordernum">订单号</p>
+                                </td>
+                                <td>￥620</td>
+                                <td>2015-08-02</td>
+                                <td>2015-08-03</td>
+                                <td>订单生成</td>
+                                <td class="control">
+                                    <p class="ct-p"><a href="#">查看</a>|<a href="#" class="cancle">取消</a></p>
+                                    <p><a href="#">售后</a>|<a href="#" class="del">删除</a></p>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <!--返回按钮-->
+                    <button type="button" class="return toperson">返回</button>
+                </div>
+                <!--我的出售-->
+                <div class="mysell">
+                    <button type="button" class="sellbtn return">我要出售</button>
+                    <div class="sell-content">
+                        <table class="sell">
+                            <thead>
+                            <tr>
+                                <th>订单信息</th>
+                                <th>售卖金额</th>
+                                <th>提交时间</th>
+                                <th>上架时间</th>
+                                <th>商品存储</th>
+                                <th>商品状态</th>
+                                <th>是否回款</th>
+                                <th>操作</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>
+                                    <img src="../../images/orderpic.jpg" alt="" class="orderpic">
+                                    <p class="ordernum">订单号</p>
+                                </td>
+                                <td>￥620</td>
+                                <td>2015-08-02</td>
+                                <td>2015-08-03</td>
+                                <td>户里</td>
+                                <td>售卖中</td>
+                                <td>是</td>
+                                <td class="control">
+                                    <p class="ct-p"><a href="#" class="markdown">降价申请</a></p>
+                                    <p><a href="#">取消</a>|<a href="#" class="del">删除</a></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img src="../../images/orderpic.jpg" alt="" class="orderpic">
+                                    <p class="ordernum">订单号</p>
+                                </td>
+                                <td>￥620</td>
+                                <td>2015-08-02</td>
+                                <td>2015-08-03</td>
+                                <td>自留</td>
+                                <td>已出售</td>
+                                <td>否</td>
+                                <td class="control">
+                                    <p class="ct-p"><a href="#" style="cursor: not-allowed;color: #e3e9ef;text-decoration: none;">降价申请</a></p>
+                                    <p><a href="#" style="cursor: not-allowed;color: #e3e9ef;text-decoration: none;">取消</a>|<a href="#" class="del">删除</a></p>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                        <p class="tips">操作须知：审核未通过的订单请查看系统消息修改重新上传；<br>每个订单仅能使用一次降价申请功能，如有疑问请联系客服。</p>
+                    </div>
+                    <div class="apply">
+                        <h2><span>降价申请</span><span>(订单号：1234567890)</span></h2>
+                        <div class="form-cont">
+                            <table action="">
+                                <thead>
+                                    <tr class="tr-info">
+                                        <th>商品信息</th><th colspan="2">价格信息</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td>
+                                        <img src="../../images/orderpic.jpg" alt="" class="orderpic">
+                                        <p class="ordernum">订单号</p>
+                                    </td>
+                                    <td>
+                                        <p><label>售卖价格</label> <span>￥1500.00</span></p>
+                                        <p><label>售卖佣金</label> <span>40%</span></p>
+                                        <p><label>实际收入</label> <span>￥900.00</span></p>
+                                    </td>
+                                    <td>
+                                        <p><label>修改价格</label> ￥<input type="tel" class="modify"></p>
+                                        <p><label>实际收入</label> ￥600.00</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <img src="../../images/orderpic.jpg" alt="" class="orderpic">
+                                        <p class="ordernum">订单号</p>
+                                    </td>
+                                    <td>
+                                        <p><label>售卖价格</label> <span>￥1500.00</span></p>
+                                        <p><label>售卖佣金</label> <span>40%</span></p>
+                                        <p><label>实际收入</label> <span>￥900.00</span></p>
+                                    </td>
+                                    <td class="control">商品已下单</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <img src="../../images/orderpic.jpg" alt="" class="orderpic">
+                                        <p class="ordernum">订单号</p>
+                                    </td>
+                                    <td>
+                                        <p><label>售卖价格</label> <span>￥1500.00</span></p>
+                                        <p><label>售卖佣金</label> <span>40%</span></p>
+                                        <p><label>实际收入</label> <span>￥900.00</span></p>
+                                    </td>
+                                    <td class="control">商品已下单</td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="btn-sell">
+                            <button type="button" class="return btn-inline">提交</button>
+                            <button type="button" class="return btn-inline tosell">返回</button>
+                        </div>
+                    </div>
+                </div>
+                <!--个人账户-->
+                <div class="account">
+                    <h1>个人账户</h1>
+                    <section>
+                        <h3>我的积分</h3>
+                        <div>
+                            <b>200</b>分
+                            <p>您在户里网的任意消费都可获得积分，积分可直接抵扣商品金额</p>
+                            <p>查看 <a href="#">积分规则</a></p>
+                        </div>
+                    </section>
+                </div>
+                <!--系统消息-->
+                <!--点击按钮弹出框-->
+                <div class="popupbox">
+                    <h1></h1>
+                    <p></p>
+                    <div class="buttons">
+                        <button class="yes" type="button">确定</button>
+                        <button class="no" type="button">取消</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--底部-->
+    <div class="footer"></div>
+<!--js-->
+    <script src="../../plugin/jquery.js"></script>
+    <script src="../../js/common.js"></script>
+    <script src="../../js/navPage.js"></script>
+    <script src="../../js/headerBtn.js"></script>
+    <script src="../../js/common.js"></script>
+    <script src="../../js/ren/info.js"></script>
+</body>
+</html>

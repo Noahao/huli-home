@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+#couple .goods-img{
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+#couple .main-img{
+    width:1024px;
+    height:636px;
+}
+#couple .main-img li{
+    width:1024px;
+    height:636px;
+}
+#couple .main-img li>img{
+    width: inherit;
+    height:inherit;
+}
+#couple .sub-little-img{
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-top: 0px;
+    margin-left: 30px;
+    width:136px;
+    height: inherit;
+}
+#couple .sub-little-img li{
+    width: 100%;
+    margin-top: 12px;
+    margin-right: 0;
+}
+#couple .sub-little-img li img{
+    width: inherit;
+}
+#goodscp {
+    width: 100%;
+    height: auto;
+}
+/*#goodscp div{*/
+    /*display: inline-block;*/
+/*}*/
+#goodscp .goods-name{
+    display: block;
+    margin-top: 10px;
+}
+#goodscp .describe{
+    display: inline-block;
+    margin-left: 30px;
+    line-height: 47px;
+}
+#goodscp h1{
+    border-bottom: 1px solid #ccc;
+}
+#goodscp-details{
+    height: 230px;
+    position: relative;
+}
+#goodscp-details .goods-price{
+    margin-top: 30px;
+    height: 58px;
+    position: relative;
+}
+#goodscp-details  .goods-buy-ctrl{
+    display: inline-block;
+    margin-top: 0;
+    position: absolute;
+    right: 0;
+}
+#goodscp .original{
+    display: inline-block;
+}
+#goodscp  .goods-dynamic{
+    position: relative;
+}
+#serve{
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+#serve div {
+    display: inline-block;
+    margin-top: 0;
+}
